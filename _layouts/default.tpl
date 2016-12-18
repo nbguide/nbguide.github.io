@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
 
   <!-- SEO by Meta Keywords Generator :  start-->
-  <title>宁波海曙向导软件开发</title>
+  <title>{{ site.title }}</title>
   <meta name="keywords" content="">
   <meta name="description" content="">
   <!-- SEO by Meta Keywords Generator :  end-->
@@ -77,28 +77,7 @@
 </head>
 <body>
 
-
   <div id="container">
-    <div id="header">
-      <div class="inside clearfix">
-
-        <div id="logo">
-
-          <h1 class="logo"><a href="../index.html"><img src="../images/logo2.png" alt="宁波海曙向导软件开发"></a></h1>
-
-        </div>
-
-        <div id="mainNav" class="clearfix">
-          <div class="menu-menu-container">
-            <ul id="menu-menu" class="sf-menu sf-js-enabled sf-shadow">
-              <li id="menu-item-2010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2010"><a href="../projects.html">案例</a></li>
-              <li id="menu-item-1534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1534"><a href="../about.html">关于</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    <!--</div>-->
 
   {{ content }}
 
@@ -108,11 +87,9 @@
         </div><!-- end footer main -->
 
         <div class="secondary clearfix">
-          <div class="left"><p></p><h4>Copyright © 宁波海曙向导软件开发有限公司  All Rights Reserved</h4><p></p></div>
+          <div class="left"><p></p><h4>Copyright © <a href="index.html" target="_self">{{ site.name }}</a>  All Rights Reserved</h4><p></p></div>
           <div class="right">
-            <p> </p><h4><a href="tel:0574-87114234">0574-87114234</a></h4>
-
-
+            <p> </p><h4>{{ site.title8 }} <a href="tel:{{ site.tel }}">{{ site.tel }}</a>|{{ site.title9 }} {{ site.address }}</h4>
             <p></p>
           </div>
         </div><!-- end footer secondary-->
