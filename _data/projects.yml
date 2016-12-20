@@ -1,10 +1,12 @@
-- name: 宁波大学科研管理系统
+- id: 31
+  name: 宁波大学科研管理系统
   url: http://kjc.nbu.edu.cn
   description:  测试
   pic_url: images/resources/T_canals3.jpg
   pic_url2:  
 
-- name: 宁波工程学院科研管理系统
+- id: 41
+  name: 宁波工程学院科研管理系统
   url: http://kjc.nbut.edu.cn
   description:  测试
   pic_url: images/resources/T_canals3.jpg
