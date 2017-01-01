@@ -19,11 +19,11 @@ layout: homepage
           <div class="project small 38" id="project-we" style="opacity: 1;">
             <div class="inside">
               <a href="#" rel="bookmark">
-                <img width="300" height="175" src="{{ project.pic_url }}" class="thumb wp-post-image" alt="We Grow Cherries" title="We Grow Cherries">		<span class="title"><span>{{ project.name }}</span></span>
+                <img width="300" height="175" src="{{ project.pic_url }}" class="thumb wp-post-image" alt="{{ project.name }}" title="{{ project.name }}">		<span class="title"><span>{{ project.name }}</span></span>
               </a>
             </div>
           </div>
-
+          
 {% endfor %}
 
         </div>
@@ -39,7 +39,7 @@ layout: homepage
           <div class="project small 38" id="project-we" style="opacity: 1;">
             <div class="inside">
               <a href="#" rel="bookmark">
-                <img width="300" height="175" src="{{ customer.pic_url }}" class="thumb wp-post-image" alt="We Grow Cherries" title="We Grow Cherries">		<span class="title"><span>{{ customer.name }}</span></span>
+                <img width="300" height="175" src="{{ customer.pic_url }}" class="thumb wp-post-image" alt="{{ customer.name }}" title="{{ customer.name }}">		<span class="title"><span>{{ customer.name }}</span></span>
               </a>
             </div>
           </div>
@@ -59,7 +59,7 @@ layout: homepage
           <div class="project small 38" id="project-we" style="opacity: 1;">
             <div class="inside">
               <a href="#" rel="bookmark">
-                <img width="300" height="175" src="{{ partener.pic_url }}" class="thumb wp-post-image" alt="We Grow Cherries" title="We Grow Cherries">		<span class="title"><span>{{ partener.name }}</span></span>
+                <img width="300" height="175" src="{{ partener.pic_url }}" class="thumb wp-post-image" alt="{ partener.name }}" title="{ partener.name }}">		<span class="title"><span>{{ partener.name }}</span></span>
               </a>
             </div>
           </div>
