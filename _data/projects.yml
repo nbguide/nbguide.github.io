@@ -2,16 +2,54 @@
   name: 海关缉私信息综合用用系统
   url: 
   description:  
+  customer: 海关总署缉私局、全国海关缉私局
   pic_url: http://oizl7hmik.bkt.clouddn.com/未标题-2.jpg
 
 - id: 41
   name: 宁波海关缉私综合管理系统
   url: 
-  description:  
+  description:  宁波海关缉私局
+  customer: 宁波海关缉私局
   pic_url: http://oizl7hmik.bkt.clouddn.com/未标题-3.jpg
 
 - id: 51
   name: 江北工业区综合管理及电子地图
   url:  
   description:
+  customer: 江北工业区委员会
   pic_url: http://oizl7hmik.bkt.clouddn.com/未标题-5.jpg
+
+- id: 61
+  name: 宁波海关企业违法数据库
+  url:  
+  description:
+  customer: 宁波海关、宁波海关缉私局
+  pic_url: http://oizl7hmik.bkt.clouddn.com/违法.bmp
+
+- id: 71
+  name: 宁波市民政局GIS信息系统
+  url:  
+  description:
+  customer: 宁波市民政局
+  pic_url: http://oizl7hmik.bkt.clouddn.com/地图.bmp
+
+- id: 81
+  name: 宁波水利局短信平台
+  url:  
+  description:
+  customer: 宁波水利局
+  pic_url: http://oizl7hmik.bkt.clouddn.com/水利局.bmp
+
+- id: 91
+  name: 缉私综合管理系统
+  url:  
+  description:
+  customer: 宁波海关缉私局
+  pic_url: http://oizl7hmik.bkt.clouddn.com/责任主页.bmp
+
+- id: 94
+  name: 海关缉私内务管理系统
+  url:  
+  description:
+  customer: 海关总署缉私局、昆明海关缉私局
+  pic_url: http://oizl7hmik.bkt.clouddn.com/总署.bmp
