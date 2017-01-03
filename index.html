@@ -14,7 +14,7 @@ layout: homepage
 
         <div class="thumbs clearfix">
 
-{% for project in site.data.projects %}
+{% for project in site.data.projects limit:3 %}
 
           <div class="project small 38" id="project-we" style="opacity: 1;">
             <div class="inside">
@@ -22,8 +22,8 @@ layout: homepage
                 <img width="300" height="175" src="{{ project.pic_url }}" class="thumb wp-post-image" alt="{{ project.name }}" title="{{ project.name }}">		<span class="title"><span>{{ project.name }}</span></span>
               </a>
             </div>
-          </div>
-          
+          </div> 
+
 {% endfor %}
 
         </div>
@@ -34,7 +34,7 @@ layout: homepage
 
         <div class="thumbs clearfix">
 
-{% for customer in site.data.customer %}
+{% for customer in site.data.customer limit:3 %}
 
           <div class="project small 38" id="project-we" style="opacity: 1;">
             <div class="inside">
@@ -54,7 +54,7 @@ layout: homepage
 
         <div class="thumbs clearfix">
 
-{% for partener in site.data.parteners %}
+{% for partener in site.data.parteners limit:3 %}
 
           <div class="project small 38" id="project-we" style="opacity: 1;">
             <div class="inside">
@@ -73,7 +73,7 @@ layout: homepage
         <h3><span>{{ site.title4 }}</span></h3>
         <div class="thumbs clearfix">
 
-{% for servers in site.servers %}
+{% for servers in site.servers limit:3 %}
 
           <div class="post-38 page type-page status-publish hentry small">
             <a class="thumb" href="#" rel="bookmark"><img width="300" height="105" src="{{ servers.pic_url }}" class="thumb wp-post-image" alt="HOME" title="HOME"></a>
