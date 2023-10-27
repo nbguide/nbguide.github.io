@@ -4,7 +4,7 @@ safe: false
 pygments: true
 highlighter: rouge
 
-baseurl: /
+baseurl: https://nbguide.github.io
 # github上请修改baseusl为http://nbguide.github.io
 auto: false
 destination: ./_site
