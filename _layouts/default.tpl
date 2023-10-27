@@ -87,7 +87,7 @@
         </div><!-- end footer main -->
 
         <div class="secondary clearfix">
-          <div class="left"><p></p><h4>Copyright © <a href="index.html" target="_self">{{ site.name }}</a>  All Rights Reserved</h4><p></p></div>
+          <div class="left"><p></p><h4>Copyright © <a href="/" target="_self">{{ site.name }}</a>  All Rights Reserved</h4><p></p></div>
           <div class="right">
             <p> </p><h4>{{ site.title8 }} <a href="tel:{{ site.tel }}">{{ site.tel }}</a>|{{ site.title9 }} {{ site.address }}</h4>
             <p></p>
