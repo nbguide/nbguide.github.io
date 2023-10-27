@@ -3,21 +3,21 @@
   url: 
   description:  
   customer: 海关总署缉私局、全国海关缉私局
-  pic_url: http://oizl7hmik.bkt.clouddn.com/未标题-2.jpg
+  pic_url: https://static.dvz.com/guide/resources/case1.jpg
 
 - id: 41
   name: 宁波海关缉私综合管理系统
   url: 
   description:  宁波海关缉私局
   customer: 宁波海关缉私局
-  pic_url: http://oizl7hmik.bkt.clouddn.com/未标题-3.jpg
+  pic_url: https://static.dvz.com/guide/resources/case2.jpg
 
 - id: 51
   name: 江北工业区综合管理及电子地图
   url:  
   description:
   customer: 江北工业区委员会
-  pic_url: http://oizl7hmik.bkt.clouddn.com/未标题-5.jpg
+  pic_url: https://static.dvz.com/guide/resources/case3.jpg
 
 - id: 61
   name: 宁波海关企业违法数据库
