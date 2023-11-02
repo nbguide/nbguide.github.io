@@ -1,11 +1,11 @@
 - name: 中国海关
   url: http://kjc.nbu.edu.cn
-  pic_url: https://static.dvz.com/guide/resources/customs.jpg
+  pic_url: /images/resources/customs.jpg
 
 - name: 宁波大学
   url: http://kjc.nbu.edu.cn
-  pic_url: https://static.dvz.com/guide/resources/nbu.jpg
+  pic_url: /images/resources/nbu.jpg
 
 - name: 宁波工程学院
   url: http://kjc.nbut.edu.cn
-  pic_url: https://static.dvz.com/guide/resources/nbut.jpg
+  pic_url: /images/resources/nbut.jpg
