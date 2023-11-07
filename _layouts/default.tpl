@@ -61,7 +61,7 @@
     }
 
     #homeBanner {
-      background-image: url(https://static.dvz.com/guide/home0.jpg);
+      background-image: url(/images/home0.jpg);
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center top;
